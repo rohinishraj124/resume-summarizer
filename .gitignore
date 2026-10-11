@@ -1,0 +1,39 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Resume files and private user data
+resume.pdf
+*.resume.pdf
+uploads/
+data/
+
+# Generated vector databases
+faiss_index/
+vector_store/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
